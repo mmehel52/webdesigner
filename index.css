@@ -1,0 +1,49 @@
+#surname{color: red;}
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+li,a,button{
+    font-family: 'Inter',
+    sans-serif;
+    font-weight: 500;font-size: 16px;color:edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks li{
+    display: inline-block;padding: 0px 5px;
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;color: white;
+}
+.navlinks li a:hover{
+    color: #0088a9;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;transition: all 0.3s ease 0s;
+}
+#main{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url("banner.jpg") ;background-size: cover;text-align: center;color: white;height: 90vh;
+}
+.container h1{
+    position: absolute;justify-content: center;align-items: center;padding: -100px;margin: -100px;top: 50%;left: 50%;
+}
+.container p{
+    position: absolute;
+    justify-content: center;
+    top: 175px;left: 200px;
+}
